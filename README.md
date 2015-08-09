@@ -10,8 +10,12 @@ Satirical version of daffodilday.com.au
 
 Australia's Cancer Council has partnered with one of Australia's two biggest tobacco retailers, Coles, to raise money selling point of sale merchandise.
 
-Coles Supermarkets and Coles Express petrol stations sell billions of cigaretteseach year. Daffodil Day provides them with a massive PR opportunity but also creates a financial disincentive for Cancer Council to support changes that might harm their bottom line.
+Coles Supermarkets and Coles Express petrol stations sell billions of cigarettes each year. Daffodil Day provides them with a massive PR opportunity but also creates a financial disincentive for Cancer Council to support changes that might harm their bottom line.
 
 It's like selling 'cancer credits' to big tobacco retail.
 
-Competing supermarket, Aldi, does not sell tobacco.
+Coles' competing supermarket, Aldi, does not sell tobacco.
+
+## Pull Requests Welcome!
+
+Feeling a bit cheeky? Send a pull request to make a change to a page. Discuss changes. Let's see what we can make this by 28 August 2015.
