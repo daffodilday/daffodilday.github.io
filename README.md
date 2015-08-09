@@ -6,8 +6,9 @@ Satirical version of daffodilday.com.au
 
 ```
 Smoking is recognised as the largest single preventable cause of death and disease in Australia. It is associated with an increased risk of heart disease, stroke, cancer, emphysema, bronchitis, asthma, renal disease and eye disease.
-[Australian Bureau of Statistics](http://www.abs.gov.au/ausstats/abs@.nsf/Lookup/by+Subject/4125.0~Jan+2012~Main+Features~Smoking~3320)
 ```
+[Australian Bureau of Statistics](http://www.abs.gov.au/ausstats/abs@.nsf/Lookup/by+Subject/4125.0~Jan+2012~Main+Features~Smoking~3320)
+
 
 Australia's Cancer Council has partnered with one of Australia's two biggest tobacco retailers, Coles, to raise money selling point of sale merchandise.
 
