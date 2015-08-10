@@ -65,7 +65,7 @@ width="0" style=
 </div>
 <div class="fundraiser hidden-xs">
 <div id="counter" class="fundraiser--number"></div>
-<p class="fundraiser--subline">of our > 5 billion cigarette target sold so far
+<p class="fundraiser--subline">of <a href="http://www.smh.com.au/business/retail/cigarettes-and-junk-food-dominate-supermarket-sales-growth-20141121-11r5dn.html" target="new">Coles' 1 billion cigarette target</a> sold so far
 this year!</p>
 </div>
 </div>
@@ -716,7 +716,7 @@ alt="Cancer Council - Australia's Biggest Morning Tea"></a></div>
       <script>
         var START_DATE = new Date("Jan 1, 2015 00:00:00"); // put in the starting date here
         var INTERVAL = 1; // in seconds
-        var INCREMENT = 158; // increase per tick
+        var INCREMENT = 3; // increase per tick
         var START_VALUE = 1; // initial value when it's the start date
         var count = 0;
 
@@ -726,7 +726,7 @@ alt="Cancer Council - Australia's Biggest Morning Tea"></a></div>
 
         window.onload = function()
         {
-          var msInterval = INTERVAL * 1000;
+          var msInterval = INTERVAL * 100;
           var now = new Date();
           count = parseInt((now - START_DATE)/msInterval) * INCREMENT + START_VALUE;
           document.getElementById('counter').innerHTML = count;
