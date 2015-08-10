@@ -64,8 +64,8 @@ width="0" style=
 </form>
 </div>
 <div class="fundraiser hidden-xs">
-<div class="fundraiser--number">$54,514</div>
-<p class="fundraiser--subline">of our $8.5mil target raised so far
+<div id="counter" class="fundraiser--number"></div>
+<p class="fundraiser--subline">of our > 5 billion cigarette target sold so far
 this year!</p>
 </div>
 </div>
@@ -441,7 +441,7 @@ href="get-involved/buy-merchandise/index.html">BUY</a></div>
 </div>
 <div class="section-global section-fundraising-teaser">
 <div class="container">
-<h3>VOLUNTEER OR DONATE TO HELP BEAT CANCER</h3>
+<h3>DONATE AT THE TOBACCO COUNTER AT COLES</h3>
 <div class="fundraising-teaser--date"><br>
 <h1>Daffodil Day</h1>
 &nbsp;is on Friday, 28th August, 2015.</div>
@@ -713,5 +713,25 @@ alt="Cancer Council - Australia's Biggest Morning Tea"></a></div>
             js=d.createElement(s);js.id=id;js.src="//connect.facebook.net/en_US/sdk.js";fjs.parentNode.insertBefore(js,fjs);}(document,'script','facebook-jssdk'));
 </script>
 <div id="loginDiv"></div>
+      <script>
+        var START_DATE = new Date("Jan 1, 2015 00:00:00"); // put in the starting date here
+        var INTERVAL = 1; // in seconds
+        var INCREMENT = 158; // increase per tick
+        var START_VALUE = 1; // initial value when it's the start date
+        var count = 0;
+
+        function numberWithCommas(x) {
+          return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+        }
+
+        window.onload = function()
+        {
+          var msInterval = INTERVAL * 1000;
+          var now = new Date();
+          count = parseInt((now - START_DATE)/msInterval) * INCREMENT + START_VALUE;
+          document.getElementById('counter').innerHTML = count;
+          setInterval("count += INCREMENT; document.getElementById('counter').innerHTML = numberWithCommas(count);", msInterval);
+        }
+      </script>
 </body>
 </html>
